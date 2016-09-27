@@ -1,0 +1,21 @@
+{
+    "name": "PlayerSettings",
+    "plural": "PlayerSettings",
+    "base": "Model",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "currency": {
+            "type": "string"
+        },
+        "country": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

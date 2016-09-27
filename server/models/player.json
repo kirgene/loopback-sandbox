@@ -1,0 +1,26 @@
+{
+    "name": "Player",
+    "plural": "Players",
+    "base": "User",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+    },
+    "validations": [],
+    "relations": {
+        "playerSettings": {
+            "type": "embedsOne",
+            "model": "PlayerSettings",
+            "property": "settings",
+            "options": {
+                "validate": true,
+                "forceId": false
+            }
+        }
+    },
+    "acls": [
+    ],
+    "methods": {}
+}

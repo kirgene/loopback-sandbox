@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Player": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PlayerSettings": {
+    "dataSource": "transient",
+    "public": false
   }
 }
